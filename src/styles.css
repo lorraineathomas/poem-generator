@@ -1,3 +1,15 @@
 body {
-    background: lavender;
+    background: rgb(179, 179, 250);
+    font-family: "Edu SA Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+main {
+    text-align: center;
 }
