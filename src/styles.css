@@ -1,5 +1,5 @@
 body {
-    background: rgb(179, 179, 250);
+    background: rgb(130, 91, 129);
     font-family: "Edu SA Hand", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -10,6 +10,58 @@ h1, footer {
     text-align: center;
 }
 
+h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
 main {
     text-align: center;
+}
+
+.container {
+    background: rgb(239, 223, 243);
+    margin: 100px auto;
+    max-width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.poem-focus-input {
+    padding: 15px;
+    border: 1px solid black;
+    width: 75%;
+    font-size: 15px;
+    border-radius: 30px;
+    line-height: 1.5;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.poem-focus-submit {
+    padding: 15px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    width: 17%;
+    font-size: 18px;
+}
+
+.poem {
+    font-size: 17px;
+    background: white;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+footer {
+    font-size: 14px;
+    margin-top: 10px;
 }

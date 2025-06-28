@@ -13,11 +13,16 @@
     <header>
         <h1>Poem Generator with AI</h1>
     </header>
-    
+    <div class="container">
     <main>
-        <form autocomplete="off">
-            <input type="text" class="text" placeholder="Type poem topic..." />
-            <input type="submit"/>
+        <form>
+            <input type="text" 
+            class="poem-focus-input" 
+            placeholder="Type poem topic..." 
+            autofocus
+            required
+            autocomplete="off"/>
+            <input class="poem-focus-submit" type="submit"/>
         </form>
         <div class="poem">
             How do I love thee? Let me count the ways.
@@ -58,6 +63,7 @@
         <a href="https://github.com/lorraineathomas/poem-generator" target="_blank">open-sourced</a> with a
         <a href="https://poems-generator-withai.netlify.app/" target="_blank">Netlify page.</a>
     </footer>
+    </div>
     <script src="/src/index.js"></script>
 </body>
 </html>
