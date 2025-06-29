@@ -18,8 +18,9 @@ function createPoem(event){
     let context = "The user will provide one word or more. The poem generated should be related to the word submitted. Please separate each sentence on separate lines. Include '- SheCodes AI' at the end.";
     let url = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-    console.log("Writing poem...")
-
+    console.log("Generating poem...")
+    let waitMessage = document.querySelector("#poem");
+    waitMessage.innerHTML = "Please wait. <br/> Generating poem...";
     axios.get(url).then(typePoem);
 }
 
